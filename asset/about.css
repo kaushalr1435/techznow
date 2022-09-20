@@ -1,0 +1,42 @@
+.heading{
+  color: #253545;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.desc{
+  text-align: center;
+  margin: 0 20px;
+  margin-bottom: 40px;
+}
+
+ul li{
+  text-align: center;
+  margin: 20px 0;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 5px 15px;
+  background: #253545;
+  border-radius: 5px;
+}
+
+ul li a:hover{
+  color: #253545;
+  background: none;
+  border: 2px solid #253545;
+}
+
+#much{
+  margin-bottom: 40px;
+}
+
+#thn{
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
