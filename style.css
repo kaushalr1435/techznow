@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: fantasy;
+  box-sizing: border-box;
+}
+
+/* Navbar Starts Here*/
+nav{
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background-color: #253545;
+  justify-content: space-between;
+  padding: 0 20px 0 30px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px #111;
+}
+
+nav .logo img{
+  width: 50px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+}
+
+nav ul li{
+  margin: 0 10px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 800px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  transition: 0.5s;
+}
+
+nav .menu-btn{
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+  background: #fff;
+  color: #253545;
+  border-radius: 5px;
+}
+
+#click{
+  display: none;
+}
+
+@media (max-width: 950px){
+  
+  nav .menu-btn{
+    display: block;
+  }
+  
+  nav ul{
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    background: #1d2b3a;
+    height: 100vh;
+    width: 100%;
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+  }
+  
+  #click:checked ~ ul{
+    right: 0%;
+  }
+  
+  nav ul li{
+    margin: 40px 0;
+  }
+  
+  nav ul li a{
+    font-size: 20px;
+  }
+  
+}
+/*Navbar Ends Here*/
+
+.main{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main #h1{
+  font-size: 24px;
+  font-family: cursive;
+}
+
+.main #h2{
+  font-size: 24px;
+  color: #ff4057;
+  margin-bottom: 10px;
+}
+
+.main p{
+  margin: 0 30px;
+  color: rgba(0,0,0,0.7);
+  margin-bottom: 15px;
+}
+
+.main a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 8px;
+  background: #253545;
+  border-radius: 5px;
+}
+
+#rc{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.box{
+  margin: auto;
+  margin-bottom: 40px;
+  width: 300px;
+  border: 2px solid #253545;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #253545;
+}
+
+.box img{
+  width: 290px;
+  padding: 5px 0;
+}
+
+.box p{
+  letter-spacing: 0.5px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.box a{
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 15px;
+  color: #fff;
+  padding: 5px 8px;
+  background: #253545;
+  border-radius: 5px;
+}
+
+footer{
+  background: #253545;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
