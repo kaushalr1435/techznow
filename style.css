@@ -127,7 +127,7 @@ nav ul li a.active{
   border-radius: 5px;
 }
 
-#rc{
+.rc{
   font-size: 26px;
   text-align: center;
   margin-bottom: 15px;
